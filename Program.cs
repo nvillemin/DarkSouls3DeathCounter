@@ -32,7 +32,7 @@ namespace DarkSouls3DeathCounter {
                     if(_deaths != newDeaths) {
                         _deaths = newDeaths;
                         Console.WriteLine("Deaths = {0}", _deaths.ToString());
-                        File.WriteAllText(Environment.CurrentDirectory + FileName, _deaths.ToString());
+                        File.WriteAllText(FileName, _deaths.ToString());
                     }
                 }
 
